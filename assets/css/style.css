@@ -1,0 +1,94 @@
+@import url('for-import.css');
+
+body{
+    /*background image https://www.w3schools.com/cssref/pr_background-image.asp */
+    background-image: url('../images/bush.png');
+
+}
+
+.top{
+    width: 960px;
+    
+}
+
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border-color: #cccccc;
+    background-color: #ffffff; */
+    background-color: #4aaaa5;
+    color: white;
+    float:left;
+
+}
+
+nav{
+    position: absolute;
+    width: 25%;
+    right: 0px;
+    /* need to move to the right side of the page */
+}
+
+
+div{
+    width: 960px;
+    height: auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    /* need background to cover whole area of interest, not just container area */
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  #4aaaa5;
+    /* need to connect to lower areas */
+}
+
+
+.sideBySide{
+    width: 960px;
+
+}
+
+.container{
+    position: relative;
+    width: 35%;
+    float: left;
+    padding: 20px;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+    bottom: 0%;
+
+}
+
+.overlay{
+    position: absolute;
+    bottom: 15%;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 88%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+
+}
+
+p{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer{
+    background-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
